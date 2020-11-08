@@ -27,4 +27,7 @@ Once done, you can now start using the script. Make sure the user is root/admin 
 `python monitor.py`
 
 It will take upto 15 seconds to check. If the given IP is online, it will say it's online otherwise it will send an email. 
+# Email Server
+You can use Google's SMTP server which uses your email to send outgoing emails. Hostname is smtp.google.com, username and password is your email and it's login password which you use in gmail.com. 
 
+You can also buy a VPS from https://shadowhosting.net/vps-hosting.html and setup an email server, truly your own mail server. Refer this repository after ordering this server in support ticket and get free Mailcow installation in your VPS.
