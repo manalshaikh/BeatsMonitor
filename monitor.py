@@ -1,7 +1,7 @@
 from pythonping import ping # Required to be installed using `pip install pythingping` and only runs on root.
 from email.mime.text import MIMEText
 import smtplib
-
+from datetime import datetime
 ehost = 'mail.youremailserver.here' # Your mailserver hostname / IP address here.
 user = 'yourusername@mailprovider.here' # Your email ID / username for SMTP authentication here.
 password = 'YourpAsswordhEre' # Your password here.
@@ -14,10 +14,10 @@ else:
     print("Site is offline")
     sender = 'yourusername@mailprovider.here'
     receiver = 'yourusername@gmail.com'
+    now = datetime.now()
+    msg = MIMEText('Your server was unpingable and assumed down at ' + now.strftime('%H:%M:%S - %d/%m/%Y.'))
 
-    msg = MIMEText('Your website is offline.')
-
-    msg['Subject'] = 'DOWN! Your website is down.'
+    msg['Subject'] = 'DOWN! Your website is down.' 
     msg['From'] = user
     msg['To'] = receiver
 
