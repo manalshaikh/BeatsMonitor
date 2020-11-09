@@ -7,15 +7,15 @@ Beats Monitor is a server uptime monitoring application. If a server stops pingi
 More features to come soon!
 
 # Installation and Setup
-Due to the script being in early development, we will use cron to keep it in rotation. 
-Save the below-written script in */etc/cron.d/yourfilenamehereanythingrandom.cron*.
-```
-# run script every 5 minutes
-*/5 * * * *   root  python3 /root/monitor.py
+For the time being, this script is mostly useful if run in Linux CentOS environment. Run this command first to install Python3 and git(ofc its already installed im stupid).
 
-# run script after system (re)boot
-@reboot       root  python3 /root/monitor.py
-```
+`sh install.sh`
+
+Now after that, to make sure it's running in cron, run this script:
+
+`sh cron.sh`
+
+This script will copy beatsmon.cron to where it is supposed to be for it's execution.
 
 # How to use?
 Before you start using it, you need a python library which can be easily installed using pip command. Use the following command to begin with installation of "pythonping".
