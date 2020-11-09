@@ -1,0 +1,5 @@
+# run script every 5 minutes
+*/5 * * * *   root  python3 /root/monitor.py
+
+# run script after system (re)boot
+@reboot       root  python3 /root/monitor.py
