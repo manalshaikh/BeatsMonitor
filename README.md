@@ -18,11 +18,6 @@ Now after that, to make sure it's running in cron, run this script:
 This script will copy beatsmon.cron to where it is supposed to be for it's execution.
 
 # How to use?
-Before you start using it, you need a python library which can be easily installed using pip command. Use the following command to begin with installation of "pythonping".
-
-`pip install pythonping`
-
-Once done, you can now start using the script. Make sure the user is root/admin to begin as pythonping can only ping if the executing user has system permissions.
 
 `python monitor.py`
 
