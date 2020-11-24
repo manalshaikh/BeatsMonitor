@@ -12,7 +12,7 @@ define('DB_SERVER', 'localhost'); #Localhost recommended
 define('DB_USERNAME', 'root'); # Root not recommended incase shit goes wrong.
 define('DB_PASSWORD', ''); # XAMPP on dev's PC so leaving it empty. Enter your db's user pw here.
 define('DB_DATABASE', 'beatsmonitor');
-define("BASE_URL", "http://192.168.0.105/projects/BeatsMonitor/"); // Eg Your website's base URL. Not necessary. Maybe deperecated in future.
+define("BASE_URL", "http://192.168.0.105/projects/BeatsMonitor/BeatsMonitor/"); // Eg Your website's base URL. Not necessary. Maybe deperecated in future.
 
 
 function getDB() 
