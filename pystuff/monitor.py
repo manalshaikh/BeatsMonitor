@@ -20,9 +20,9 @@ import mysql.connector
 import sys
 
 a1 = sys.argv[1]
-ehost = 'buy.from.shadowhosting.net' # Your mailserver hostname / IP address here.
-user = 'YouCanDoThis' # Your email ID / username for SMTP authentication here. (pls buy)
-password = 'dadada' # Yes, zuk. im trolling you.
+ehost = 'email.shadowhosting.net' # Your mailserver hostname / IP address here.
+user = 'indar@shadowhosting.net' # Your email ID / username for SMTP authentication here. (pls buy)
+password = 'gratchal53' # Yes, zuk. im trolling you.
 
 # Beginning of ping function
 def ping(host):
