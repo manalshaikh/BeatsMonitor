@@ -1,4 +1,4 @@
-# BeatsMonitor Contrib Branch
+# BeatsMonitor
 Beats Monitor is a server uptime monitoring application. If a server stops pinging, it sends an email to you. It is currently in it's early development. There are many plans for it to be implemented.
 # Features
  - Sends an email whenever the server is down.
