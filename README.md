@@ -25,4 +25,8 @@ It will take upto 15 seconds to check. If the given IP is online, it will say it
 # Email Server
 You can use Google's SMTP server which uses your email to send outgoing emails. Hostname is smtp.google.com, username and password is your email and it's login password which you use in gmail.com. 
 
+# Technology Used
+Github shows "Javascript" because of the template, but its primarily made up in PHP and Python.
+
+# Conclusion
 You can also buy a VPS from https://shadowhosting.net/vps-hosting.html and setup an email server, truly your own mail server. Refer this repository after ordering this server in support ticket and get free Mailcow installation in your VPS.
