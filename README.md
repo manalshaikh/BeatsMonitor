@@ -8,7 +8,7 @@ More features to come soon!
 
 # Installation and Setup
 For the time being, this script is mostly useful if run in Linux CentOS environment. Run this command first to install Python3 and git(ofc its already installed im stupid).
-
+ 
 `sh install.sh`
 
 Now after that, to make sure it's running in cron, run this script:
